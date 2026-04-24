@@ -12,5 +12,6 @@ public interface equiposRepository extends JpaRepository<equipos,Integer> {
     // LISTAR EQUIPOS:
     List<equipos> findAllByApis_Id(int id);
 
+    
 
 }
